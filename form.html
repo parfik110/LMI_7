@@ -27,7 +27,7 @@
     <!-- Brand -->
     <h1 class="sr-hidden">ACME Fashion House</h1>
     <a class="navbar-brand" href="#">
-      <img src="./assets/img/site/logo.png" width="209" height="81">
+      <img src="./assets/img/site/logo.png" width="209" height="81" alt="logo">
     </a>
 
     <!-- Collapse -->
@@ -121,7 +121,7 @@
 
           <div class="border">
 
-            <label>Title</label>
+            <label for="title">Title</label>
             <div class="form-group">
               <select class="custom-select" id="title">
                 <option value="? string: ?"></option>
@@ -138,17 +138,17 @@
               </select>
             </div>
 
-            <label>First Name</label>
+            <label for="first">First Name *</label>
             <div class="form-group">
               <input type="text" id="first" class="form-control" autocomplete="off">
             </div>
 
-            <label>Last Name</label>
+            <label for="last">Last Name *</label>
             <div class="form-group">
-              <input type="text" id="last" class="form-control" autocomplete="off" maxlength="40">
+              <input type="text" id="last" class="form-control" autocomplete="off">
             </div>
 
-            <label>Email Address</label>
+            <label for="email">Email Address *</label>
             <div class="form-group">
               <input type="text" id="email" class="form-control" autocomplete="off">
             </div>
@@ -158,25 +158,25 @@
               <label class="custom-control-label signup" for="signup">Signup to our newsletter</label>
             </div>
 
-            <p>Please indicate your shipping option preferences by selecting the relevant option</p>
 
-            <div class=" form-group">
-              <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                <label class="custom-control-label" for="customRadio1">Standard 10 to 14 days</label>
-              </div>
-              <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                <label class="custom-control-label" for="customRadio2">Priority 7 to 10 days</label>
-              </div>
+            <fieldset class=" form-group">
+                <legend>Please indicate your shipping option preferences by selecting the relevant option</legend>
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio1">Standard 10 to 14 days</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio2">Priority 7 to 10 days</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio3">3 workings days</label>
+                </div>
+            </fieldset>
 
-              <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                <label class="custom-control-label" for="customRadio3">3 workings days</label>
-              </div>
-            </div>
 
-            <p>By creating an account, you acknowledge that you're aware that your personal data will be used in line with our <a href="#">Privacy Policy</a>. View our <a href="#">Customer Data Promise</a> for more information.</p>
+              <p>By creating an account, you acknowledge that you're aware that your personal data will be used in line with our <a href="#">Privacy Policy</a>. View our <a href="#">Customer Data Promise</a> for more information.</p>
 
             <p>You are also agreeing to cookies being used in line with our <a href="#">Cookie Policy</a> Details on how to disable cookies are set out in the same policy.</p>
 
@@ -213,7 +213,7 @@
       <div class="row">
         <div class="col-12 col-md-3">
           <!-- Heading -->
-          <img src="./assets/img/site/logobw.png" width="205" height="81">
+          <img src="./assets/img/site/logobw.png" width="205" height="81" alt="logo">
         </div>
         <div class="col-6 col-sm">
 
@@ -276,17 +276,18 @@
           <div class="col-auto">
 
             <!-- Payment methods -->
-            <img class="footer-payment" src="./assets/img/payment/mastercard.svg" >
-            <img class="footer-payment" src="./assets/img/payment/visa.svg" >
-            <img class="footer-payment" src="./assets/img/payment/amex.svg" >
-            <img class="footer-payment" src="./assets/img/payment/paypal.svg" >
-            <img class="footer-payment" src="./assets/img/payment/maestro.svg" >
-            <img class="footer-payment" src="./assets/img/payment/klarna.svg" >
+            <img class="footer-payment" src="./assets/img/payment/mastercard.svg" alt="mastercard">
+            <img class="footer-payment" src="./assets/img/payment/visa.svg" alt="visa">
+            <img class="footer-payment" src="./assets/img/payment/amex.svg" alt="amex">
+            <img class="footer-payment" src="./assets/img/payment/paypal.svg" alt="paypal">
+            <img class="footer-payment" src="./assets/img/payment/maestro.svg" alt="maestro">
+            <img class="footer-payment" src="./assets/img/payment/klarna.svg" alt="klarna">
 
           </div>
         </div>
       </div>
     </div>
+  </div>
 </footer>
 </body>
 </html>
